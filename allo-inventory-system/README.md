@@ -77,8 +77,8 @@ npm install
 ### 2. Configure Environment
 Create a `.env` file at the root:
 ```env
-DATABASE_URL="postgresql://postgres.<username>:<password>@aws-1-<region>.pooler.supabase.com:6543/postgres?pgbouncer=true"
-DIRECT_URL="postgresql://postgres.<username>:<password>@aws-1-<region>.pooler.supabase.com:5432/postgres"
+DATABASE_URL="postgresql://postgres.mzfrtmuwbapumwunkcbb:PRram%4012345%23%21@aws-1-ap-southeast-2.pooler.supabase.com:6543/postgres?pgbouncer=true"
+DIRECT_URL="postgresql://postgres.mzfrtmuwbapumwunkcbb:PRram%4012345%23%21@aws-1-ap-southeast-2.pooler.supabase.com:5432/postgres"
 ```
 Make sure to URL-encode any special characters in the password.
 
