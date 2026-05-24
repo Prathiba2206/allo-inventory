@@ -59,7 +59,7 @@ export async function POST(request: Request) {
           error: "INSUFFICIENT_STOCK",
           message: "The requested quantity is not available in the selected warehouse.",
         },
-        { status: 409 } // 409 Conflict
+        { status: 409 }
       );
     }
 
@@ -69,7 +69,7 @@ export async function POST(request: Request) {
           error: "NOT_FOUND",
           message: "No inventory record exists for the selected product and warehouse.",
         },
-        { status: 404 } // 404 Not Found
+        { status: 404 }
       );
     }
 
